@@ -1,0 +1,9 @@
+1235031f24a2a6b4fcc790ebd879c973  contrib.rsync.inactive
+258abb4a71b4492775491ff9b794ebc2  core-arm.rsync
+d7ede8cfe6da977021f4217363c07d6d  core.rsync
+49b48f17faf00eb1d1524f54fd4e6ffb  cubieboard2-arm.rsync
+43fa89c9e106f774f02b25c47c66c164  opt-arm.rsync
+ba2755e20ca669275ee837ee9cd18c50  opt.rsync
+1f178e2bb1beab9782993931c9832280  ports-1.5.tar.gz
+9f71ef6b0b381828629858fbb9eff78a  xorg-arm.rsync
+3bb81f15783c470e116e41a2fabece90  xorg.rsync
