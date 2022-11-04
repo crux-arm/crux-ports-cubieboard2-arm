@@ -1,0 +1,8 @@
+#
+# /etc/ports/cubieboard2-arm.httpup: CRUX-ARM ports overlay for Cubieboard 2
+#
+
+ROOT_DIR=/usr/ports/cubieboard2-arm
+URL=https://raw.githubusercontent.com/crux-arm/crux-ports-cubieboard2-arm/main/
+
+# End of file
