@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/cubieboard2-arm.pub
+RWTHodlksYiB0zKQqv34I8k6/zI4u0ZPhRxnOOjNYi+aqOnmHwTXN29aA9nVqDUIjXl5N0T7itzkeHvO1lkZ6OlacHQfHRlafAw=
+SHA256 (Pkgfile) = 97c0de62d26066dc5d4d731c0b0f791f5ff5fec10cf3297589f27c071c5f2472
+SHA256 (.footprint) = 7d143f18f63bba5569d729eefd0d0f04ae4b0539f8bd71f9cfd6955b9e7c639d
+SHA256 (pkgutils-5.40.9.tar.xz) = d2dd8c9af4ee14016480494aa1db12b0d211befbf3450772c602ff3a54f1a49e
+SHA256 (pkgmk.conf) = 10dab88a157209c3413409afbf40d65b7c3284e432c9d542a2ff8aa8dde920b9
