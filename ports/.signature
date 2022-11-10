@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/cubieboard2-arm.pub
-RWTHodlksYiB0+rYO6SVA8AoI95JWbEFlXvLCxWqlvu6rYO0fY2hHYC8D4HQeOtPJOlNzqZbB61DH8xL8v34IY3tj8woXnNm5wA=
+RWTHodlksYiB0yK0ixfIBj+1yJH2bDaGGEQ0iiUttt0K6AOyqRP0yCejQDagPGrattNh4FioAFPBlWZwRNFZyhMfBihVWOjiTAg=
 SHA256 (Pkgfile) = e66f5acd2770ba679d2a648814fd5db8faf5bd6abace437dd07ccea265aca913
 SHA256 (.footprint) = 39ded0ae66db4432c82cf4bf8688b816ee83b9402217ebee43897ebada76a3af
 SHA256 (ports-1.6.tar.gz) = 8b2ba48e7440f4a71fa1c9c480a1212ce87c623e1d33121eb660829ba294ca94
@@ -11,7 +11,7 @@ SHA256 (core.rsync) = a241801eaa34ea78f7bb362574fb4b14ea272518894f8a27e95f6a3c93
 SHA256 (opt.rsync) = 8538d1ced606856552e8a6989a3880b958ac5e0849d14aba199f3f89bd871845
 SHA256 (xorg.rsync) = 3dd6884b2b628e8d9ae575b95fb7e4bad0f9ddd4ee4088d2486f846a407a0278
 SHA256 (contrib.rsync.inactive) = 55621db4b59fb45ecc9525c72d59576043bacbd9261d9ef031dcd1a3fda00957
-SHA256 (cubieboard2-arm.httpup) = 1569a9886f1028578ef45db07c6197d37a4a4a686732cba3be665ddeb7c5bd00
+SHA256 (cubieboard2-arm.httpup) = 83ca3bfa4cdc0d0306fe88a2632da13a780ff45d16a2c5759c1943f3f6ee49de
 SHA256 (cubieboard2-arm.pub) = dd730b014cfd6d7b4f3b9680328bff6a7c09b96aab347e28f547d84ad36345fe
 SHA256 (core-arm.httpup) = 9e6a550ec695683c359e99e371586f0a15f4d6a67a8afc2bda988b2393325192
 SHA256 (core-arm.pub) = e2b863731f5f282d4c5f1ec4a8d687409e5c44c7050b1c07532c25a7f343c48e
