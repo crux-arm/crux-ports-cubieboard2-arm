@@ -4,7 +4,7 @@ CRUX-ARM ports overlay for Cubieboard 2
 
 To use these ports, download the `cubieboard2-arm.httpup` file to `/etc/ports`:
 ```
-$ sudo wget -P /etc/ports https://raw.githubusercontent.com/crux-arm/crux-ports-cubieboard2-arm/3.7/cubieboard2-arm.httpup
+$ sudo wget -P /etc/ports https://raw.githubusercontent.com/crux-arm/crux-ports-cubieboard2-arm/3.8/cubieboard2-arm.httpup
 $ sudo ports -u cubieboard2-arm
 ```
 
