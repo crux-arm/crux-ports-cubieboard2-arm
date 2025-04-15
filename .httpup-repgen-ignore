@@ -1,0 +1,8 @@
+README.md
+\.git*
+^cubieboard2\-arm\.httpup
+*~
+\.*~
+*work
+*.pkg.*
+
