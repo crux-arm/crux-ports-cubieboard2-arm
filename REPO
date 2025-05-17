@@ -23,10 +23,10 @@ f:3aaa1248dcd823f9aa2f6b846dcebf06:ports/Pkgfile
 f:595c44754cc9931351fcd5e8199f2515:ports/.signature
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
 f:101888c52175282532f96fc1603c56af:prt-get/prt-get.conf
-f:4f6b710e4d2b18c70cfe5e4a593938b7:prt-get/prt-get.aliases
+f:ac750b56369121ca6aad64dd4c03671b:prt-get/prt-get.aliases
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
 f:fba3b19b1f9ef72c722360b8cfd73c3d:prt-get/Pkgfile
-f:abf75bde91f3127ba270e675f3f24e5d:prt-get/.signature
+f:e36602c17594ff37e715f98391b33850:prt-get/.signature
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:9693592850d40079557552217619265b:pkgutils/Pkgfile
 f:907a60f1220d540e2f7b32706b93018d:pkgutils/.signature
