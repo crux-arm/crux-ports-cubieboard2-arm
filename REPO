@@ -1,6 +1,7 @@
 d:ports
 d:libump
 d:prt-get
+d:libdrm
 d:xf86-video-fbturbo
 d:pkgutils
 f:804bb419e539a70ad80e4c03df3c3411:ports/contrib.pub
@@ -32,6 +33,9 @@ f:ac750b56369121ca6aad64dd4c03671b:prt-get/prt-get.aliases
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
 f:fba3b19b1f9ef72c722360b8cfd73c3d:prt-get/Pkgfile
 f:e36602c17594ff37e715f98391b33850:prt-get/.signature
+f:d7f3851a6d7d4c699e5f7a9e0bd437de:libdrm/.footprint
+f:a8ae93c5449002f8869ef0414e70842f:libdrm/Pkgfile
+f:30b1e4c44fafe68ba7832249c6d8d035:libdrm/.signature
 f:5f4706b8c2163f66dc9f99ef9a93c500:xf86-video-fbturbo/.footprint
 f:c6bf86bda174e0d37c75294518909b76:xf86-video-fbturbo/0001-Use-own-thunk-functions-instead-of-fbdevHW-Weak.patch
 f:d6029234c5c79ff3d4323c8a50e746e6:xf86-video-fbturbo/0004-fbdev_xrand.patch
