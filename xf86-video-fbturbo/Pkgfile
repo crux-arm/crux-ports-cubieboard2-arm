@@ -1,0 +1,36 @@
+# Description: video driver, optimized for the devices powered by the Allwinner SoC (A10, A13, A20)
+# URL: https://github.com/ssvb/xf86-video-fbturbo
+# Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: libump
+
+name=xf86-video-fbturbo
+version=git
+release=1
+source=(0001-Use-own-thunk-functions-instead-of-fbdevHW-Weak.patch
+        0002-GCC-8-fix.patch
+        0003-backStorage-fix.patch
+        0004-fbdev_xrand.patch)
+
+build() {
+  if [ ! -d $PKGMK_SOURCE_DIR/$name ]; then
+    git clone https://github.com/ssvb/xf86-video-fbturbo $PKGMK_SOURCE_DIR/$name
+  else
+    cd $PKGMK_SOURCE_DIR/$name && git fetch
+  fi
+  cp -r $PKGMK_SOURCE_DIR/$name $SRC
+
+  cd $SRC/$name
+
+  patch -p1 -i $SRC/0001-Use-own-thunk-functions-instead-of-fbdevHW-Weak.patch
+  patch -p1 -i $SRC/0002-GCC-8-fix.patch
+  patch -p1 -i $SRC/0003-backStorage-fix.patch
+  patch -p1 -i $SRC/0004-fbdev_xrand.patch
+
+  autoreconf -vi
+  ./configure --prefix=/usr --mandir=/usr/man
+  make
+  make DESTDIR=$PKG install
+  mkdir -p $PKG/etc/X11/xorg.conf.d/
+  cp xorg.conf $PKG/etc/X11/xorg.conf.d/99-fbturbo.conf
+}

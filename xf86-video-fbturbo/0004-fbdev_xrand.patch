@@ -1,0 +1,19 @@
+--- a/src/fbdev.c	2025-05-22 16:01:34.808007192 +0200
++++ b/src/fbdev.c	2025-05-22 16:03:52.584007258 +0200
+@@ -1033,13 +1033,16 @@
+ 	if (!fPtr->rotate)
+ 	  FBDevDGAInit(pScrn, pScreen);
+ 	else {
++#if GET_ABI_MAJOR(ABI_VIDEODRV_VERSION) < 24
+ 	  xf86DrvMsg(pScrn->scrnIndex, X_INFO, "display rotated; disabling DGA\n");
+ 	  xf86DrvMsg(pScrn->scrnIndex, X_INFO, "using driver rotation; disabling "
+ 			                "XRandR\n");
+ 	  xf86DisableRandR();
++#else
+ 	  if (pScrn->bitsPerPixel == 24)
+ 	    xf86DrvMsg(pScrn->scrnIndex, X_WARNING, "rotation might be broken at 24 "
+                                              "bits per pixel\n");
++#endif
+ 	}
+ 
+ 	xf86SetBlackWhitePixels(pScreen);

@@ -1,0 +1,14 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/X11/
+drwxr-xr-x	root/root	etc/X11/xorg.conf.d/
+-rw-r--r--	root/root	etc/X11/xorg.conf.d/99-fbturbo.conf
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/xorg/
+drwxr-xr-x	root/root	usr/lib/xorg/modules/
+drwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/
+-rwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/fbturbo_drv.la
+-rwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/fbturbo_drv.so
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man4/
+-rw-r--r--	root/root	usr/man/man4/fbturbo.4.gz

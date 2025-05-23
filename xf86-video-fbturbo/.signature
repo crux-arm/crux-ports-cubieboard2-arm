@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/cubieboard2-arm.pub
+RWTHodlksYiB05tvDZ25F5Dnd0/WNLjAo8pw5Dyq+eZoCdcShTY1mUwz5YfCEkBsBycLuJG4gcRRV3awit6jS/HExM3BaD1GTQo=
+SHA256 (Pkgfile) = 180fcf3a13e9585805453277bb5ed19419696be0c07b5cca7d8b31319085d2b5
+SHA256 (.footprint) = 2e767adb06f4ce67709264e7a2388d8cfdd01e3b4493819ad215044fa18b2fb8
+SHA256 (0001-Use-own-thunk-functions-instead-of-fbdevHW-Weak.patch) = 64e13e2beaca64feea8a1f6e052522d80964a39226db4abb4130b3adb53cac6f
+SHA256 (0002-GCC-8-fix.patch) = a88445ee108183530632818976105aa0c71b40350e004adcc4a40a0f37ae1a1e
+SHA256 (0003-backStorage-fix.patch) = fc7c7b0ec5e11dd605f785717d37c9cd89033140023adef0ae97df1813691e16
+SHA256 (0004-fbdev_xrand.patch) = b1afc134d7822263c4dda5ab009e1e6cd5cee0fb426e4b2b8fc7f961727438de
