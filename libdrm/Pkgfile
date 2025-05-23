@@ -1,0 +1,36 @@
+# Description: Userspace interface to kernel DRM services
+# URL: https://dri.freedesktop.org/
+# Maintainer: CRUX Xorg Team, xorg-ports at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: libpthread-stubs xorg-libpciaccess
+
+name=libdrm
+version=2.4.124
+release=1
+source=(http://dri.freedesktop.org/libdrm/libdrm-$version.tar.xz)
+
+build() {
+  meson setup build $name-$version \
+    --prefix=/usr \
+    --buildtype=plain \
+    --wrap-mode nodownload \
+    -D b_lto=true \
+    -D b_pie=true \
+    -D vc4=disabled \
+    -D intel=disabled \
+    -D radeon=disabled \
+    -D amdgpu=disabled \
+    -D nouveau=disabled \
+    -D vmwgfx=disabled \
+    -D omap=disabled \
+    -D exynos=disabled \
+    -D freedreno=disabled \
+    -D tegra=disabled \
+    -D etnaviv=disabled \
+    -D valgrind=disabled \
+    -D man-pages=disabled \
+    -D cairo-tests=disabled
+
+  meson compile -C build -j ${JOBS:-1}
+  DESTDIR=$PKG meson install -C build
+}

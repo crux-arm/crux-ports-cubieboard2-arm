@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cubieboard2-arm.pub
+RWTHodlksYiB0/ZWKAUir3wm14aDJULsxHXM7jRTeb46iDw+jVVSP2GumWcnT8gtabu0r3dVFKizjfwrFlNo1RrbQ4xbpM3xEg0=
+SHA256 (Pkgfile) = 897541efc215f2fca29b14d9320402b6185bf6b2befbcdeea04dd8fd85c6bc14
+SHA256 (.footprint) = b51133aee436f218ce32e27f9851d65845c17095bf8628061403058926bdd5ca
+SHA256 (libdrm-2.4.124.tar.xz) = ac36293f61ca4aafaf4b16a2a7afff312aa4f5c37c9fbd797de9e3c0863ca379
