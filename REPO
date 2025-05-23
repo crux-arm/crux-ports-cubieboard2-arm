@@ -1,4 +1,5 @@
 d:ports
+d:libump
 d:prt-get
 d:xf86-video-fbturbo
 d:pkgutils
@@ -22,6 +23,9 @@ f:b8dd0aad383810cad920d6548cd1cb56:ports/core.pub
 f:5c94921bee9441abfd6d72869d8e3b69:ports/opt-arm.pub
 f:3aaa1248dcd823f9aa2f6b846dcebf06:ports/Pkgfile
 f:595c44754cc9931351fcd5e8199f2515:ports/.signature
+f:2814fa27ced5eab8a6acc29dbaa3f3b7:libump/.footprint
+f:f9edd71e21dd90a0883460d06e28bde4:libump/Pkgfile
+f:846004d4ca2e9bd9aa06729135a6bf93:libump/.signature
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
 f:101888c52175282532f96fc1603c56af:prt-get/prt-get.conf
 f:ac750b56369121ca6aad64dd4c03671b:prt-get/prt-get.aliases
