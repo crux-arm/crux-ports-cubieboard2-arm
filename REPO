@@ -1,5 +1,6 @@
 d:ports
 d:prt-get
+d:xf86-video-fbturbo
 d:pkgutils
 f:804bb419e539a70ad80e4c03df3c3411:ports/contrib.pub
 f:093976ed22eb0418721096175b2bd276:ports/xorg-arm.pub
@@ -27,6 +28,13 @@ f:ac750b56369121ca6aad64dd4c03671b:prt-get/prt-get.aliases
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
 f:fba3b19b1f9ef72c722360b8cfd73c3d:prt-get/Pkgfile
 f:e36602c17594ff37e715f98391b33850:prt-get/.signature
+f:5f4706b8c2163f66dc9f99ef9a93c500:xf86-video-fbturbo/.footprint
+f:c6bf86bda174e0d37c75294518909b76:xf86-video-fbturbo/0001-Use-own-thunk-functions-instead-of-fbdevHW-Weak.patch
+f:d6029234c5c79ff3d4323c8a50e746e6:xf86-video-fbturbo/0004-fbdev_xrand.patch
+f:f8ee21eaee681b41a4eb50cb5896b847:xf86-video-fbturbo/0003-backStorage-fix.patch
+f:f53822acd3eb38616326f47c046c4307:xf86-video-fbturbo/Pkgfile
+f:36ff3a90c4c17bbfb982d53bfd411936:xf86-video-fbturbo/0002-GCC-8-fix.patch
+f:a1b45b3acdb631e1ef566bf9435c02ea:xf86-video-fbturbo/.signature
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:9693592850d40079557552217619265b:pkgutils/Pkgfile
 f:907a60f1220d540e2f7b32706b93018d:pkgutils/.signature
