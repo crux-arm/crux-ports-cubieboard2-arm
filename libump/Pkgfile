@@ -1,0 +1,25 @@
+# Description: split out dri2 client side code from mesa, libva, libvdpau, etc.. 
+# URL: https://github.com/robclark/libdri2
+# Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on: git libdrm xorg-libx11 xorg-libxext
+
+name=libump
+version=git
+release=1
+source=()
+
+build() {
+  if [ ! -d $PKGMK_SOURCE_DIR/$name ]; then 
+    git clone https://github.com/linux-sunxi/libump $PKGMK_SOURCE_DIR/$name
+  else
+    cd $PKGMK_SOURCE_DIR/$name && git fetch
+  fi
+  cp -r $PKGMK_SOURCE_DIR/$name $SRC
+
+  cd $SRC/$name
+  autoreconf -i
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+}
