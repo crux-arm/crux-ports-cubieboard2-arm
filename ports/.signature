@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/cubieboard2-arm.pub
-RWTHodlksYiB08M3DgugZv8tr0a1bghXzGebrRxWDCcnTl34KFxKFMzhhTgZE1/hK+86oaNhdN31DyYioGCpLA77pHir7Yw7gQ0=
-SHA256 (Pkgfile) = 32e77521c5367489866c6d064f036ec32e02b7faa8a2903d724cfeef9c053414
-SHA256 (.footprint) = 39ded0ae66db4432c82cf4bf8688b816ee83b9402217ebee43897ebada76a3af
+RWTHodlksYiB01IqvTUqTP6FKEvs2HJJBkzHJXyz4DJDnYfNcObDNJR/Uxx6A7c3jEvCu2IDKD6Kf+U/vaRy3W5x9X0sUaLIego=
+SHA256 (Pkgfile) = 8524f11f862b88cdbd822bf4e5909ae3249f2839eeb96ccc743990e3208d8b3a
+SHA256 (.footprint) = c67be52b94071394ce2d5d2220fd44cd1cdcccd9e362affe62db83849bf586a7
 SHA256 (ports-1.6.tar.gz) = 8b2ba48e7440f4a71fa1c9c480a1212ce87c623e1d33121eb660829ba294ca94
 SHA256 (core.pub) = 5a08b7f21fb1768b9e639da0b768edb536de0590b75e663dab6d185617613791
 SHA256 (opt.pub) = 4711f488546c38cdec792c1f16b3bf7c4db0c7dc0c3cdab0ecdd85e2c7247ae5
@@ -11,11 +11,11 @@ SHA256 (core.rsync) = 3c519f28a8b8593edcfcfb5f059f7483356776702bfba0ca7a61a1026b
 SHA256 (opt.rsync) = 9d1a6f55491550406bedba8c62bacd5d2664689548e3c33a3227dc6ba890f192
 SHA256 (xorg.rsync) = 65ccbb020ab33484a834d7f2e71e3084ce2e51fdc4a33a1d8f13a72bdec02f60
 SHA256 (contrib.rsync.inactive) = fb1460b95b525478f9fb062fa21e209cf1ed449f3016a2bc89c4b5329a5fdaf8
-SHA256 (cubieboard2-arm.httpup) = 2d1c791e6ac0a3c49d05ec4ea687c3bcf5020e8006bf6083e838cadd67802bf1
+SHA256 (cubieboard2-arm.rsync) = d07bc2a7ea55aeb6bf7c416591943407595d6a67d683b9c516656e08121fafc8
 SHA256 (cubieboard2-arm.pub) = dd730b014cfd6d7b4f3b9680328bff6a7c09b96aab347e28f547d84ad36345fe
-SHA256 (core-arm.httpup) = 78670a5babc71bc3c850355d24b6e2ba5e33f1b1a8ee060e5455a298f9716105
+SHA256 (core-arm.rsync) = f6ff6a550b3d07ffd5c372446785d2e1209b95c3949e551e3782250cfc7c59c1
 SHA256 (core-arm.pub) = e2b863731f5f282d4c5f1ec4a8d687409e5c44c7050b1c07532c25a7f343c48e
-SHA256 (opt-arm.httpup) = 4dad3a0c0c99605574c7781f3fdad72717483e1ca414b242cd7e6168a90861e2
+SHA256 (opt-arm.rsync) = c0178f49b64215d4fbeb86f658fdbef0a0c4a7baafb6e9b59ecfa2c635d6f4b4
 SHA256 (opt-arm.pub) = b24e7d0ce48b220938d8a192755e19644dee11c6a34c4328207456394790ab1f
-SHA256 (xorg-arm.httpup) = 06b7de0b1e09f12c4c737ce1e068764f36bdf74816c01e9f68814c0a4b1fe239
+SHA256 (xorg-arm.rsync) = 44bbbb58ed0fb5dbcd03531cd3b31ea49c003b57aa1ae69bed5dcdd730072ee6
 SHA256 (xorg-arm.pub) = eddfc12a736084d1cbc12fe3c3171952880244e04b42f29476b18699a7e3ed62
